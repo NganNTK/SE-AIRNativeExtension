@@ -1,0 +1,17 @@
+								BIÊN BA?N HO?P NHO´M NGA`Y 10/11/2017
+
+I.NÔ?I DUNG CÔNG VIÊ?C
+  - ÐÔ?I CODER
+	+ Phâ`n code ASLib cu?a La` da~ tuong dô´i hoa`n chi?nh va` da~ commit lên Github.
+	+ Phâ`n code android cu?a volume controller da~ xong va` da~ commit lên Github.
+	+ Trong tuâ`n to´i, du? di?nh code android library cho ane vibration.
+  - ÐÔ?I TESTER
+  	+ Ti`m hiê?u va` viê´t test script.
+    	+ Co´ thê? su? du?ng simulator dê? test.
+  - Viê´t doc gio´i thiê?u công nghê? su? du?ng cu?a nho´m.
+II.KHO´ KHAN
+  - Phâ`n code ASLib bi? lô~i phâ`n design pattern, cu? thê? la` singleton.
+  - Phâ`n code ANE yêu câ`u la`m tru?c tiê´p trên Objective-C, tuy nhiên Apple lên kê´ hoa?ch ngu`ng support.
+III.GIA?I PHA´P
+  - Phâ`n code design pattern Ngân se~ support => du? kiê´n se~ fix lô~i trong tuâ`n na`y.
+  - Phâ`n code ANE trên Obj-C Thanh se~ tiê´p tu?c ti`m hiê?u, nê´u qua´ ha?n chê´ se~ chuyê?n huo´ng =>câ`n go´p y´ cu?a leader Bu`i Sy~ Nguyên.
