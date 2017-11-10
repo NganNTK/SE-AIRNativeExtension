@@ -1,6 +1,6 @@
 BIÊN BẢN HỌP NHÓM NGÀY 31/10/2017
 I. NỘI DUNG CÔNG VIỆC
-- Thời gian họp: 7h-9h sáng thứ 6 hàng tuần
+- Thời gian họp: 7h-9h sáng thứ 6 
 - Cài đặt môi trường lập trình.
 - ActionScript: FlashBuilder 4.7
 - IOS: XCode
