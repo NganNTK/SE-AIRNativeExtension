@@ -1,17 +1,18 @@
-								BI�N BA?N HO?P NHO�M NGA`Y 10/11/2017
+								BIÊN BẢN HỌP NHÓM NGÀY 10/11/2017
+								
 
-I.N�?I DUNG C�NG VI�?C
-  - ��?I CODER
-	+ Ph�`n code ASLib cu?a La` da~ tuong d��i hoa`n chi?nh va` da~ commit l�n Github.
-	+ Ph�`n code android cu?a volume controller da~ xong va` da~ commit l�n Github.
-	+ Trong tu�`n to�i, du? di?nh code android library cho ane vibration.
-  - ��?I TESTER
-  	+ Ti`m hi�?u va` vi�t test script.
-    	+ Co� th�? su? du?ng simulator d�? test.
-  - Vi�t doc gio�i thi�?u c�ng ngh�? su? du?ng cu?a nho�m.
-II.KHO� KHAN
-  - Ph�`n code ASLib bi? l�~i ph�`n design pattern, cu? th�? la` singleton.
-  - Ph�`n code ANE y�u c�`u la`m tru?c ti�p tr�n Objective-C, tuy nhi�n Apple l�n k� hoa?ch ngu`ng support.
-III.GIA?I PHA�P
-  - Ph�`n code design pattern Ng�n se~ support => du? ki�n se~ fix l�~i trong tu�`n na`y.
-  - Ph�`n code ANE tr�n Obj-C Thanh se~ ti�p tu?c ti`m hi�?u, n�u qua� ha?n ch� se~ chuy�?n huo�ng =>c�`n go�p y� cu?a leader Bu`i Sy~ Nguy�n.
+I.NỘI DUNG CÔNG VIỆC
+  - ÐỘI CODER
+	+ Phần code ASLib của Là đã tương đối hoàn chỉnh và đã commit lên Github.
+	+ Phần code android của volume controller đã xong và đã commit lên Github.
+	+ Trong tuần tới, dự định code android library cho ane vibration.
+  - ÐỘI TESTER
+  	+ Tìm hiểu và viết test script.
+    	+ Có thể sử dụng simulator để test.
+  - Viết doc giới thiệu công nghệ sử dụng của nhóm.
+II.KHÓ KHĂN
+  - Phần code ASLib bị lỗi phần design pattern, cụ thể là  singleton.
+  - Phần code ANE yêu cầu làm trực tiếp trên Objective-C, tuy nhiên Apple lên kế hoạch ngừng support.
+III.GIA?I PHA´P
+  - Phần code design pattern Ngân sẽ support => dự kiến sẽ fix lỗi trong tuần này.
+  - Phần code ANE trên Obj-C Thanh sẽ tiếp tục tìm hiểu, nếu quá hạn chế sẽ chuyển hướng =>cần góp ý của leader Bùi Sỹ Nguyên.
