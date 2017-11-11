@@ -13,6 +13,6 @@ I.NỘI DUNG CÔNG VIỆC
 II.KHÓ KHĂN
   - Phần code ASLib bị lỗi phần design pattern, cụ thể là  singleton.
   - Phần code ANE yêu cầu làm trực tiếp trên Objective-C, tuy nhiên Apple lên kế hoạch ngừng support.
-III.GIA?I PHA´P
+III.GIẢI PHÁP
   - Phần code design pattern Ngân sẽ support => dự kiến sẽ fix lỗi trong tuần này.
-  - Phần code ANE trên Obj-C Thanh sẽ tiếp tục tìm hiểu, nếu quá hạn chế sẽ chuyển hướng =>cần góp ý của leader Bùi Sỹ Nguyên.
+  - Phần code ANE trên Obj-C Thanh sẽ tiếp tục tìm hiểu, nếu quá hạn chế sẽ chuyển hướng =>cần góp ý của anh Bùi Sỹ Nguyên.
