@@ -1,0 +1,3 @@
+[submodule "ANE/VolumeController/SE-ANE-iOS-VolumeController"]
+	path = ANE/VolumeController/SE-ANE-iOS-VolumeController
+	url = git@github.com:thanhphamvan/SE-ANE-iOS-VolumeController.git
