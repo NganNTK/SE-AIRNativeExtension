@@ -1,9 +1,6 @@
 [submodule "ANE/VolumeController/SE-ANE-iOS-VolumeController"]
 	path = ANE/VolumeController/SE-ANE-iOS-VolumeController
 	url = git@github.com:thanhphamvan/SE-ANE-iOS-VolumeController.git
-[submodule "SE-ANE-Android-VolumeController"]
-	path = SE-ANE-Android-VolumeController
-	url = https://github.com/NganNTK/SE-ANE-Android-VolumeController.git
 [submodule "ANE/VolumeController/SE-ANE-Android-VolumeController"]
 	path = ANE/VolumeController/SE-ANE-Android-VolumeController
 	url = https://github.com/NganNTK/SE-ANE-Android-VolumeController.git
