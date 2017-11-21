@@ -4,3 +4,6 @@
 [submodule "ANE/VolumeController/SE-ANE-Android-VolumeController"]
 	path = ANE/VolumeController/SE-ANE-Android-VolumeController
 	url = https://github.com/NganNTK/SE-ANE-Android-VolumeController.git
+[submodule "ANE/VolumeController/SE-ANE-ActionScript-VolumeController"]
+	path = ANE/VolumeController/SE-ANE-ActionScript-VolumeController
+	url = https://github.com/LaNguyen201/SE-ANE-ActionScript-VolumeController.git
