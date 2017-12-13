@@ -1,0 +1,11 @@
+﻿				BIÊN BẢN HỌP NHÓM NGÀY 5/12/2017
+I.NỘI DUNG
+	-Thảo luận về test unit, cả đội dev và đội test cùng nghiên cứu về unit test.
+	-Cài đặt môi trường cho tester.
+		+Cài Adobe flash builder 4.7.
+	-Phần code đã tương đối hoàn chỉnh và đã commit lên Github. 
+	-Đội code đang cố gắng hoàn thành trong tuần tới để bàn giao cho đội test.
+
+II.KHÓ KHĂN
+	-Hiện tại không gặp khó khăn gì.
+	
