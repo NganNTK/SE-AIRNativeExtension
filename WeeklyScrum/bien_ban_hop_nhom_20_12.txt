@@ -1,0 +1,8 @@
+﻿				BIÊN BẢN HỌP NHÓM NGÀY 20/12/2017
+I.NỘI DUNG
+	-Thảo luận về test unit, cả đội dev và đội test cùng nghiên cứu về unit test.
+	-Buil ANE trên app.
+
+II.KHÓ KHĂN
+	-Gặp khó khăn về viết unit test.
+	
