@@ -1,0 +1,11 @@
+﻿				BIÊN BẢN HỌP NHÓM NGÀY 22/12/2017
+I.NỘI DUNG
+	-Thảo luận về test unit, cả đội dev và đội test cùng nghiên cứu về unit test.
+	-Bổ sung hàm lấy volume hiện tại trên thư viện ios, Android, ActionScript.
+	-Buil ANE trên app và chạy demo.
+	-Viết unit test.
+
+II.KHÓ KHĂN
+	-Gặp khó khăn về viết unit test( kiểm tra việc tăng volume, cần 1 hàm để lấy volume của thời điểm hiện tại).
+	
+	
