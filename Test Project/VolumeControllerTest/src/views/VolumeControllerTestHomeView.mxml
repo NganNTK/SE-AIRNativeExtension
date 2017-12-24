@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="HomeView"
+		creationComplete="init()" 
+		xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Declarations>
+		<mx:SoundEffect id="soundEmbed" 
+						useDuration="false" 
+						loops="0"
+						source="assets/attention.mp3"/>
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[						
+			import mx.core.SoundAsset;
+			
+			import my.extension.volume.VolumeController;
+			import my.extension.volume.events.VolumeEvent; 
+			private var controller:VolumeController = VolumeController.instance;
+			[Embed(source='assets/attention.mp3')] 
+			[Bindable] 
+			public var Song:Class; 
+			
+			public var mySong:SoundAsset = new Song() as SoundAsset; 
+			public var channel:SoundChannel;
+			
+			private function init():void
+			{
+				soundEmbed.play();
+				// add listener
+				controller.addEventListener( VolumeEvent.VOLUME_CHANGED, onVolumeChanged );
+				
+				// sync initial volume
+				volumeSlider.value = controller.systemVolume;
+				
+				channel = mySong.play();
+				trace("in init air app");
+			}
+			
+			private function onVolumeChanged( event:VolumeEvent ):void {
+				trace( "System volume changed:", event.volume );
+				volumeSlider.value = event.volume;
+			}
+			
+			private function onSliderChange( event:Event ):void {
+				var value:Number = volumeSlider.value;
+				trace( "Set volume to:", value );
+				controller.setVolume( value );
+			}			
+			/*private function getCurrentVolume():Number{
+			var currentVolume:Number = Number(controller.getCurrentVolume());
+			trace("Current volume: ",currentVolume.toString());
+			}*/
+			private function testVolume1():void{
+				var currentVolume:Number = Number(controller.getCurrentVolume());
+				trace("currentVolume: ", currentVolume);
+				controller.setVolume(currentVolume + 0.3);
+				var newVolume:Number = Number(controller.getCurrentVolume());
+				trace("newVolume: ", newVolume);
+			}
+			private function testVolume2():void{
+				var currentVolume:Number = Number(controller.getCurrentVolume());
+				trace("currentVolume: ", currentVolume);
+				controller.setVolume(currentVolume - 0.3);
+				var newVolume:Number = Number(controller.getCurrentVolume());
+				trace("newVolume: ", newVolume);
+			}
+		]]>
+	</fx:Script>
+	
+	<s:VGroup width="100%">
+		<s:HSlider id="volumeSlider" width="100%" minimum="0" maximum="1" stepSize=".1" change="onSliderChange(event)"/>
+		<s:Button label="Test Increase Volume" click="testVolume1()"/>
+		<s:Button label="Test Decrease Volume" click="testVolume2()"/>
+	</s:VGroup>
+	
+</s:View>
