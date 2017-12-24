@@ -16,7 +16,7 @@ Architectures in the fat file: libANE-VolumeController.a are: armv7 arm64
 Nếu output là
 ```bash
 $lipo -info ./ios/libIOSVolumeLib.a
-Architectures in the fat file: libANE-VolumeController.a are: armv7 arm64 
+Architectures in the fat file: libANE-VolumeController.a are: i386 x86_64 
 ```
 
 Khi build bằng AIR SDK sẽ sinh ra lỗi:
