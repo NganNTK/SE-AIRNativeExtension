@@ -7,6 +7,3 @@
 [submodule "ANE/VolumeController/SE-ANE-ActionScript-VolumeController"]
 	path = ANE/VolumeController/SE-ANE-ActionScript-VolumeController
 	url = https://github.com/LaNguyen201/SE-ANE-ActionScript-VolumeController.git
-[submodule "TestProject/SE-ANE-DemoProject-VolumeController"]
-	path = TestProject/SE-ANE-DemoProject-VolumeController
-	url = https://github.com/NganNTK/SE-ANE-DemoProject-VolumeController.git
