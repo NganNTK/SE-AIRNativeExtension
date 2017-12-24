@@ -1,11 +1,11 @@
 <extension xmlns="http://ns.adobe.com/air/extension/3.1"> 
-    <id>lant.extension.volume</id> 
+    <id>my.extension.volume</id> 
     <versionNumber>0.0.1</versionNumber> 
     <platforms> 
         <platform name="Android-ARM">
             <applicationDeployment>
-                <nativeLibrary>libAndroidVolumeLib.jar</nativeLibrary>
-                <initializer>lant.extension.volume.VolumeExtension</initializer>
+                <nativeLibrary>volumenativelib.jar</nativeLibrary>
+                <initializer>my.extension.volume.VolumeExtension</initializer>
             </applicationDeployment> 
         </platform>
 
