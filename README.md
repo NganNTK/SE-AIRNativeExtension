@@ -4,6 +4,10 @@
 
 >Như vậy, một project Flex có thể có nhiều ANE khác nhau, mỗi ANE được xây dựng bằng ActionScript3 API và phần native code (Java cho Android và Objective-C cho iOS).
 
+### Wiki
+
+[SE-AIRNativeExtension Wiki](https://github.com/se-ane/SE-AIRNativeExtension/wiki)
+
 ### Lưu ý
 
 >Swift 3.0: Adobe chưa có bất kỳ hỗ trợ chính thức nào liên quan đến việc hỗ trợ Swift trên nền tảng iOS, trái lại với việc Apple luôn khuyến khích các nhà phát triển ứng dụng migrate sang Swift càng nhanh càng tốt. Objective-C sẽ sớm không còn nằm trong danh sách hỗ trợ của Apple.
