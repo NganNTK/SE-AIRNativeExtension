@@ -25,46 +25,45 @@
 			
 			private function init():void
 			{
+				controller.systemVolume = Number(controller.getCurrentVolume());
+				// sync initial volume
+				volumeSlider.value = controller.systemVolume * 1/15;
+				trace("system volume: ",controller.systemVolume);
 				soundEmbed.play();
 				// add listener
 				controller.addEventListener( VolumeEvent.VOLUME_CHANGED, onVolumeChanged );
-				
-				// sync initial volume
-				volumeSlider.value = controller.systemVolume;
-				
+			
 				channel = mySong.play();
 				trace("in init air app");
 			}
 			
 			private function onVolumeChanged( event:VolumeEvent ):void {
-				trace( "System volume changed:", event.volume );
-				volumeSlider.value = event.volume;
+				trace( "System volume changed" );
+				volumeSlider.value = Number(controller.getCurrentVolume()) * 1/15;
+				
 			}
 			
 			private function onSliderChange( event:Event ):void {
 				var value:Number = volumeSlider.value;
 				trace( "Set volume to:", value );
 				controller.setVolume( value );
-			}			
-			/*private function getCurrentVolume():Number{
-			var currentVolume:Number = Number(controller.getCurrentVolume());
-			trace("Current volume: ",currentVolume.toString());
-			}*/
+			}
 			private function testVolume1():void{
-				var currentVolume:Number = Number(controller.getCurrentVolume());
+				var currentVolume:Number = Number(controller.getCurrentVolume()) * 1/15;
 				trace("currentVolume: ", currentVolume);
-				controller.setVolume(currentVolume + 0.3);
-				var newVolume:Number = Number(controller.getCurrentVolume());
+				controller.setVolume(currentVolume + 2/15);
+				var newVolume:Number = Number(controller.getCurrentVolume()) * 1/15;
 				trace("newVolume: ", newVolume);
 			}
 			private function testVolume2():void{
-				var currentVolume:Number = Number(controller.getCurrentVolume());
+				var currentVolume:Number = Number(controller.getCurrentVolume()) * 1/15;
 				trace("currentVolume: ", currentVolume);
-				controller.setVolume(currentVolume - 0.3);
-				var newVolume:Number = Number(controller.getCurrentVolume());
+				controller.setVolume(currentVolume - 2/15);
+				var newVolume:Number = Number(controller.getCurrentVolume()) * 1/15;
 				trace("newVolume: ", newVolume);
 			}
 		]]>
+		
 	</fx:Script>
 	
 	<s:VGroup width="100%">
